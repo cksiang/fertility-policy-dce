@@ -161,6 +161,19 @@ function App() {
     const estHousingValue = (countB * 8000 + countA * 3000 + 12000);
     const estTimeCostTolerance = (countA * 15 + 10);
 
+    // --- SECURE EXIT HANDLER ---
+    const handleExitSurvey = () => {
+      // 1. Try to close the browser tab natively
+      window.close();
+      
+      // 2. Fallback alert for secure mobile phone web views
+      alert(
+        lang === 'zh' 
+          ? "您的选择已安全上传至研究数据库！现在您可以放心地关闭此浏览器页面。" 
+          : "Your choices have been securely uploaded to our research database! You can now safely close this browser window."
+      );
+    };
+
     return (
       <div style={styles.container}>
         <button onClick={() => setLang(l => l === 'zh' ? 'en' : 'zh')} style={styles.langBtn}>
@@ -216,10 +229,14 @@ function App() {
             </div>
           )}
         </div>
+
+        {/* --- DEDICATED SURVEY EXIT ACTION BUTTON --- */}
+        <button onClick={handleExitSurvey} style={{...styles.mainBtn, width: '100%', marginTop: '25px', background: '#0070f3', textAlign: 'center'}}>
+          {lang === 'zh' ? "完成并退出问卷" : "Complete & Exit Survey"}
+        </button>
       </div>
     );
   }
-}
 
 // --- DESIGN SHEET STYLES ---
 const styles = {
