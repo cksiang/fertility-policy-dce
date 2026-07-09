@@ -6,14 +6,13 @@ const generateSubjectId = () => `SUB-${Math.random().toString(36).substring(2, 9
 
 function App() {
   // --- STATE MANAGEMENT ---
-  const [subjectId] = useState(generateSubjectId); // Persists unique subject code across blocks
-  const [lang, setLang] = useState('zh'); // 'zh' or 'en'
+  const [subjectId] = useState(generateSubjectId); 
+  const [lang, setLang] = useState('zh'); 
   const [assignedBlock, setAssignedBlock] = useState(null);
   const [currentTaskIndex, setCurrentTaskIndex] = useState(0);
-  const [surveyStage, setSurveyStage] = useState('welcome'); // welcome, experiment, completed
+  const [surveyStage, setSurveyStage] = useState('welcome'); 
   const [responses, setResponses] = useState([]);
   const [taskStartTime, setTaskStartTime] = useState(null);
-
   const [loadingAi, setLoadingAi] = useState(false);
 
   // --- RANDOM BLOCK SELECTION ---
@@ -43,9 +42,7 @@ function App() {
       optionC_label: currentTask.optionC[lang]
     };
 
-    // --- PIPELINE EXECUTION TO CLOUDFLARE D1 ---
     try {
-      // Constructs choice description string for comprehensive CSV parsing
       const choiceDescriptor = optionId === 'C' ? 'Opt-Out' : `Policy_${optionId}`;
       const compositeTaskKey = `B${assignedBlock.blockId}_T${currentTask.taskId}`;
 
@@ -74,12 +71,22 @@ function App() {
     }
   };
 
-  // --- INSTANT QUANTITATIVE ECONOMETRIC LOCAL ENGINE ---
+  // --- QUANTITATIVE ENGINE ---
   const triggerQuantitativeAiAnalysis = () => {
     setLoadingAi(true);
     setTimeout(() => {
       setLoadingAi(false);
     }, 500); 
+  };
+
+  // --- SECURE EXIT HANDLER ---
+  const handleExitSurvey = () => {
+    window.close();
+    alert(
+      lang === 'zh' 
+        ? "您的选择已安全上传至研究数据库！现在您可以放心地关闭此浏览器页面。" 
+        : "Your choices have been securely uploaded to our research database! You can now safely close this browser window."
+    );
   };
 
   // --- WELCOME SCREEN ---
@@ -161,19 +168,6 @@ function App() {
     const estHousingValue = (countB * 8000 + countA * 3000 + 12000);
     const estTimeCostTolerance = (countA * 15 + 10);
 
-    // --- SECURE EXIT HANDLER ---
-    const handleExitSurvey = () => {
-      // 1. Try to close the browser tab natively
-      window.close();
-      
-      // 2. Fallback alert for secure mobile phone web views
-      alert(
-        lang === 'zh' 
-          ? "您的选择已安全上传至研究数据库！现在您可以放心地关闭此浏览器页面。" 
-          : "Your choices have been securely uploaded to our research database! You can now safely close this browser window."
-      );
-    };
-
     return (
       <div style={styles.container}>
         <button onClick={() => setLang(l => l === 'zh' ? 'en' : 'zh')} style={styles.langBtn}>
@@ -237,6 +231,7 @@ function App() {
       </div>
     );
   }
+}
 
 // --- DESIGN SHEET STYLES ---
 const styles = {
