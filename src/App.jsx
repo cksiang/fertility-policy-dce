@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import surveyData from './data/tasks.json';
 
+// --- GENERATE UNIQUE ID FOR ECONOMETRIC ANALYSIS ---
+const generateSubjectId = () => `SUB-${Math.random().toString(36).substring(2, 9).toUpperCase()}`;
+
 function App() {
   // --- STATE MANAGEMENT ---
+  const [subjectId] = useState(generateSubjectId); // Persists unique subject code across blocks
   const [lang, setLang] = useState('zh'); // 'zh' or 'en'
   const [assignedBlock, setAssignedBlock] = useState(null);
   const [currentTaskIndex, setCurrentTaskIndex] = useState(0);
@@ -22,8 +26,8 @@ function App() {
     }
   }, [surveyStage]);
 
-  // --- HANDLING USER CHOICE ---
-  const handleChoice = (optionId) => {
+  // --- HANDLING USER CHOICE & SECURE NETWORK LOGGING ---
+  const handleChoice = async (optionId) => {
     const endTime = Date.now();
     const reactionTimeMs = endTime - taskStartTime;
     const currentTask = assignedBlock.tasks[currentTaskIndex];
@@ -38,6 +42,25 @@ function App() {
       policyB_details: currentTask.policyB,
       optionC_label: currentTask.optionC[lang]
     };
+
+    // --- PIPELINE EXECUTION TO CLOUDFLARE D1 ---
+    try {
+      // Constructs choice description string for comprehensive CSV parsing
+      const choiceDescriptor = optionId === 'C' ? 'Opt-Out' : `Policy_${optionId}`;
+      const compositeTaskKey = `B${assignedBlock.blockId}_T${currentTask.taskId}`;
+
+      await fetch('/api/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          subjectId: subjectId,
+          choiceSetId: compositeTaskKey,
+          selectedOption: choiceDescriptor,
+        }),
+      });
+    } catch (error) {
+      console.error("Database sync intercepted:", error);
+    }
 
     const updatedResponses = [...responses, currentResponse];
     setResponses(updatedResponses);
@@ -91,8 +114,8 @@ function App() {
         </button>
         <div style={styles.progress}>
           {lang === 'zh' 
-            ? `进度: 任务 ${currentTaskIndex + 1} / ${assignedBlock.tasks.length} (区组 ID: ${assignedBlock.blockId})` 
-            : `Progress: Task ${currentTaskIndex + 1} of ${assignedBlock.tasks.length} (Block ID: ${assignedBlock.blockId})`}
+            ? `进度: 任务 ${currentTaskIndex + 1} / ${assignedBlock.tasks.length} (区组 ID: ${assignedBlock.blockId}) | 受试编号: ${subjectId}` 
+            : `Progress: Task ${currentTaskIndex + 1} of ${assignedBlock.tasks.length} (Block ID: ${assignedBlock.blockId}) | Subject: ${subjectId}`}
         </div>
 
         <table style={styles.table}>
@@ -131,7 +154,6 @@ function App() {
 
   // --- TERMINATION COMPLETED SCREEN ---
   if (surveyStage === 'completed') {
-    // Dynamically calculate metrics on execution block so it matches lang state changes instantly
     const countA = responses.filter(r => r.selectedOption === 'A').length;
     const countB = responses.filter(r => r.selectedOption === 'B').length;
 
@@ -146,7 +168,6 @@ function App() {
         </button>
         <h2 style={styles.title}>{lang === 'zh' ? "🎉 实验已结束" : "🎉 Experiment Completed"}</h2>
 
-        {/* --- REPRODUCING USER DECISIONS --- */}
         <div style={styles.reviewBox}>
           <h3 style={{margin: '0 0 12px 0', fontSize: '16px', color: '#2c3e50'}}>
             {lang === 'zh' ? "📊 您做出的 6 次决策回顾：" : "📊 Review of Your 6 Structural Decisions:"}
@@ -169,7 +190,6 @@ function App() {
           </div>
         </div>
 
-        {/* --- QUANTITATIVE ANALYSIS CONTAINER PANEL --- */}
         <div style={styles.aiBox}>
           <h3 style={styles.aiTitle}>
             🤖 {lang === 'zh' ? "AI 政策属性量化权衡偏好报告" : "AI Quantitative Attribute Trade-Off Report"}
