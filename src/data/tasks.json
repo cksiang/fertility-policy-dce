@@ -1,0 +1,782 @@
+{
+  "experimentTitle": "Discrete Choice Experiment: Fertility Policy",
+  "totalChoiceTasks": 36,
+  "blocks": [
+    {
+      "blockId": 1,
+      "tasks": [
+        {
+          "taskId": 1,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 2,
+          "policyA": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "70% covered by maternity insurance, 30% borne by employers", "zh": "生育保险承担70%，用人单位承担30%" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 3,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 4,
+          "policyA": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 5,
+          "policyA": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 6,
+          "policyA": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        }
+      ]
+    },
+    {
+      "blockId": 2,
+      "tasks": [
+        {
+          "taskId": 7,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 8,
+          "policyA": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 9,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 10,
+          "policyA": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "70% covered by maternity insurance, 30% borne by employers", "zh": "生育保险承担70%，用人单位承担30%" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 11,
+          "policyA": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 12,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        }
+      ]
+    },
+    {
+      "blockId": 3,
+      "tasks": [
+        {
+          "taskId": 13,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 14,
+          "policyA": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 15,
+          "policyA": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 16,
+          "policyA": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 17,
+          "policyA": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 18,
+          "policyA": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        }
+      ]
+    },
+    {
+      "blockId": 4,
+      "tasks": [
+        {
+          "taskId": 19,
+          "policyA": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 20,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 21,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 22,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 23,
+          "policyA": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "70% covered by maternity insurance, 30% borne by employers", "zh": "生育保险承担70%，用人单位承担30%" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 24,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions.", "zh": "2-3家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        }
+      ]
+    },
+    {
+      "blockId": 5,
+      "tasks": [
+        {
+          "taskId": 25,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions.", "zh": "4家以上" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 26,
+          "policyA": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions.", "zh": "2-3家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions.", "zh": "2-3家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 27,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions.", "zh": "4家以上" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions.", "zh": "4家以上" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 28,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions.", "zh": "2-3家" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "70% covered by maternity insurance, 30% borne by employers", "zh": "生育保险承担70%，用人单位承担30%" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 29,
+          "policyA": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 30,
+          "policyA": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        }
+      ]
+    },
+    {
+      "blockId": 6,
+      "tasks": [
+        {
+          "taskId": 31,
+          "policyA": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 32,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 33,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 34,
+          "policyA": {
+            "subsidy": { "en": "CNY 6,000 per year", "zh": "每年6000元" },
+            "housing": { "en": "CNY 60,000", "zh": "6万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, higher admission rate for senior high", "zh": "9年义务教育，大幅提高高中录取率" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 35,
+          "policyA": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "4+ public affordable childcare institutions", "zh": "4家以上" },
+            "paternityLeave": { "en": "60 days", "zh": "60天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security borne fully by enterprises", "zh": "企业全额承担" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        },
+        {
+          "taskId": 36,
+          "policyA": {
+            "subsidy": { "en": "CNY 12,000 per year", "zh": "每年12000元" },
+            "housing": { "en": "CNY 40,000", "zh": "4万元" },
+            "childcare": { "en": "2-3 public affordable childcare institutions", "zh": "2-3家" },
+            "paternityLeave": { "en": "15 days", "zh": "15天" },
+            "education": { "en": "9-year compulsory education, strict high school entrance screening", "zh": "9年义务教育，严格的高中选拔" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "policyB": {
+            "subsidy": { "en": "CNY 9,000 per year", "zh": "每年9000元" },
+            "housing": { "en": "CNY 20,000", "zh": "2万元" },
+            "childcare": { "en": "1 public affordable childcare institution", "zh": "1家" },
+            "paternityLeave": { "en": "120 days", "zh": "120天" },
+            "education": { "en": "12-year compulsory education, no high school entrance exam", "zh": "12年义务教育，取消中考直接升学" },
+            "subsidyCorporate": { "en": "All maternity wages and social security fully covered by public finance", "zh": "财政完全兜底" }
+          },
+          "optionC": { "en": "I would choose neither policy (Status Quo)", "zh": "以上政策均不选择（维持现状）" }
+        }
+      ]
+    }
+  ],
+  "attributeLabels": {
+    "subsidy": {
+      "en": "Integrated Childbearing & Education Subsidy",
+      "zh": "育儿教育综合年度补贴"
+    },
+    "housing": {
+      "en": "One-off Housing Purchase Subsidy for Each Newborn Child",
+      "zh": "新生儿一次性购房补贴"
+    },
+    "childcare": {
+      "en": "Public Affordable Childcare within 15-Minute Walking Radius",
+      "zh": "步行15分钟范围内公办平价托育机构数量"
+    },
+    "paternityLeave": {
+      "en": "Non-transferable Paid Paternity Leave for Fathers",
+      "zh": "父亲专属带薪陪产假天数"
+    },
+    "education": {
+      "en": "Basic Education & High School Entrance Exam Rules",
+      "zh": "义务教育与中考升学规则"
+    },
+    "subsidyCorporate": {
+      "en": "Government Subsidies for Corporate Wages & Social Security",
+      "zh": "政府对企业承担的生育工资与社保费用的补贴"
+    }
+  }
+}
